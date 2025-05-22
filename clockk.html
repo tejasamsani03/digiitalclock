@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digital Clock Animation</title>
+  <link rel="icon" type="image/png" href="D:\Teja\236M1A4236\digitalclock.png" \>
+  <link rel="stylesheet" href="clockkstyle.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Digital Clock <span>Animation</span></h1>
+    <div id="time">
+      <div class="circle" style="--color: #ff2972">
+        <div class="dots h_dot"></div>
+        <svg>
+          <circle cx="70" cy="70" r="70"></circle>
+          <circle cx="70" cy="70" r="70" id="hh"></circle>
+        </svg>
+        <div id="hours">
+          <p id="hrs">12</p>
+          <p class="time-text">Hours</p>
+        </div>
+      </div>
+      <div class="circle" style="--color: #fee800">
+        <div class="dots m_dot"></div>
+        <svg>
+          <circle cx="70" cy="70" r="70"></circle>
+          <circle cx="70" cy="70" r="70" id="mm"></circle>
+        </svg>
+        <div id="minutes">
+          <p id="mins">13</p>
+          <p class="time-text">Minutes</p>
+        </div>
+      </div>
+      <div class="circle" style="--color: #04fc43">
+        <div class="dots s_dot"></div>
+        <svg>
+          <circle cx="70" cy="70" r="70"></circle>
+          <circle cx="70" cy="70" r="70" id="ss"></circle>
+        </svg>
+        <div id="seconds">
+          <p id="secs">05</p>
+          <p class="time-text">Seconds</p>
+        </div>
+      </div>
+      <div class="ap">
+        <div id="ampm">PM</div>
+      </div>
+    </div>
+  </div>
+  <script src="clockkjs.js"></script>
+</body>
+</html>
